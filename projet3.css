@@ -1,0 +1,146 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	background-image: url(deliver.jpg);
+	background-size: cover;
+	background-position-x: center;
+}
+header {
+    display: flex;  
+    align-items: center;
+    text-align: center;
+    position: fixed ;
+    top: 0;
+    width: 100%;
+    height: 40px ;
+    background-color: #572357;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 18px;
+    z-index: 2; 
+    gap: 20%;
+    transition: background-color 2s;
+}
+header.dark-mode {
+    background-color: rgb(123, 123, 250);
+    color: #fff;
+}
+nav a:hover {
+    background: #725c5c;
+    color: black;
+}
+.a{
+    display: flex;
+    position: absolute;
+    margin-top: 1%;
+    padding: 10px;
+    right: 0;
+    gap: 1rem;
+}
+a{
+    font-family: "Pacifico", cursive;
+    font-style: oblique ;
+    font-size: 20px;
+    color: black;
+}
+a:hover{
+    color: rgb(112, 230, 122);
+}
+a:active {
+    color: olivedrab;
+}
+.name:hover{
+    color:crimson  ;
+}
+.name{
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    font-style: oblique;
+}
+p:active{
+    color: olivedrab;
+}
+p{
+    margin: 0 0 10px;
+    display: block;
+    margin: 1em;
+    font-family: "Pacifico", cursive;
+    font-style: oblique ;
+    font-size: 20px;
+    color: black;
+    transition: background-color 2s;
+}
+p.dark-mode{
+    color: #fff;
+}
+.symboml {
+    display: flex;
+    align-items: center;
+    z-index: 34;
+
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px; 
+
+    border-radius: 50% / 50%;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+img {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    position: absolute;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    gap: 5px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+.yt{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.deliver{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(153, 51, 51);
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 20rem;
+    height: 30rem;
+    margin-top:7% ;
+    margin-left: 35%;
+}
+.deliver input{
+    padding: 10px 20px;
+    margin: 1px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.deliver .submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.deliver .submit:hover {
+    background-color: #39803d;
+}
